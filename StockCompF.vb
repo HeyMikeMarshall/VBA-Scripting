@@ -141,7 +141,7 @@ For Each ws In ActiveWorkbook.Worksheets
                     If ws.Cells(t, 10).Value > 0 Then
                         ws.Cells(t, 10).Interior.ColorIndex = 4
                         Else
-                        ws.Cells(t, 10).Interiocondar.ColorIndex = 3
+                        ws.Cells(t, 10).Interior.ColorIndex = 3
                     End If
             End If
                 
